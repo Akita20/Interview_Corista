@@ -1,4 +1,4 @@
-package api_Corista.test_util;
+package api_QualityTestGroup.test_util;
 
 import java.sql.*;
 import java.util.ArrayList;

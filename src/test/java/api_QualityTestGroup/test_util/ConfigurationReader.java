@@ -1,4 +1,4 @@
-package api_Corista.test_util;
+package api_QualityTestGroup.test_util;
 
 import java.io.FileInputStream;
 import java.io.IOException;

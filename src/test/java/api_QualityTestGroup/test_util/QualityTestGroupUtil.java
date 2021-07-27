@@ -1,12 +1,12 @@
-package api_Corista.test_util;
+package api_QualityTestGroup.test_util;
 
-import api_Corista.pojo.PlayStation;
+import api_QualityTestGroup.pojo.PlayStation;
 import com.github.javafaker.Faker;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class PlayStationUtil {
+public class QualityTestGroupUtil {
     private static Faker faker = new Faker();
     /**
      * Used to get valid Map object to represent post body for POST /id Request

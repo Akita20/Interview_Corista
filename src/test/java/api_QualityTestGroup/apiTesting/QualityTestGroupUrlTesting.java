@@ -1,11 +1,11 @@
-package api_Corista.apiTesting;
+package api_QualityTestGroup.apiTesting;
 
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.get;
 
-public class PlayStationUrlTesting {
+public class QualityTestGroupUrlTesting {
     @Test
     public void openMainPageTest(){
         //Get playStation URL

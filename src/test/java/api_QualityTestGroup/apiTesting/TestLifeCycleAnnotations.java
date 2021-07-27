@@ -1,4 +1,4 @@
-package api_Corista.apiTesting;
+package api_QualityTestGroup.apiTesting;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;

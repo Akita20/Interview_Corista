@@ -1,4 +1,4 @@
-package api_Corista.pojo;
+package api_QualityTestGroup.pojo;
 //character_id , name , occupation , nickname , appearance
 
 

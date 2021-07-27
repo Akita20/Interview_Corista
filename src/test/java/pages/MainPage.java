@@ -10,67 +10,35 @@ public class MainPage extends BasePage{
     public MainPage(){
     }
 
-    @FindBy(xpath = " //button[@class='navbar-toggle collapsed']")
+    @FindBy(xpath = "//div[@class='mobile-nav-icon']")
     public WebElement menuButton;
 
-    @FindBy (xpath = "//input[@name='email']")
-    public WebElement usernameInput;
-    @FindBy (xpath = "//input[@title='Password']")
-    public WebElement passwordInput;
+    @FindBy(id = "updated_nav")
+    public WebElement mainPageHeader;
 
-    @FindBy (xpath = "//span[@class='caption']")
-    public WebElement next1Button;
+    @FindBy(xpath = "//div[@class='mobile-navigation open']")
+    public List<WebElement> navigations;
 
-    @FindBy (xpath = "//span[@class='web-toolbar__signin-button-label']")
-    public WebElement signInButton;
+    @FindBy(xpath = " //li[@id='menu-item-1369']/a")
+    public WebElement industries;
 
-    @FindBy (xpath = "//span[@class='caption']")
-    public WebElement signIn2Button;
+    @FindBy(xpath = " //li[@id='menu-item-1901']/a")
+    public WebElement howWeEngage;
 
-    @FindBy(xpath = "//h1[@id='home_children_heading']")
-    public WebElement verification;
+    @FindBy(xpath = " //li[@id='menu-item-6702']/a")
+    public WebElement products;
 
-    @FindBy (className = "secondary-button row-button text-button")
-    public WebElement createNewAccountButton;
+    @FindBy(xpath = " //li[@id='menu-item-16236']/a")
+    public WebElement partners;
 
-    @FindBy (xpath = "//select[@title='Month']")
-    public List<WebElement> monthDropBox;
+    @FindBy(xpath = "//li[@id='menu-item-1393']/a")
+    public WebElement about;
 
-    @FindBy (xpath = "//select[@title='Day']")
-    public List<WebElement> dayDropBox;
+    @FindBy(xpath = " //li[@id='menu-item-1385']/a")
+    public WebElement Insights;
 
-    @FindBy (xpath = "//select[@title='Year']")
-    public List<WebElement> yearDropBox;
-
-    @FindBy(xpath = "//div[@class='fitting-parent wrapper-centeralign']")
-    public WebElement next2Button;
-
-    @FindBy(xpath = "//select[@name='country']")
-    public List<WebElement> countries;
-
-    @FindBy(xpath = "//input[@title='Language']")
-    public WebElement language;
-
-    @FindBy(xpath = "//input[@title='Email Address']")
-    public WebElement emailAddInput;
-
-    @FindBy(xpath = "//input[@title='Password']")
-    public WebElement emailPasswordInput;
-
-    @FindBy(xpath = "//input[@id='ember404']")
-    public WebElement reEnterPassword;
-
-    @FindBy(xpath = "//a[@id='home_children_button']")
-    public WebElement verifyButton;
-
-    @FindBy(xpath = "//input[@name='address-level2']")
-    public WebElement cityInput;
-
-    @FindBy(xpath = "//select[@title='State or Province']")
-    public List<WebElement> selectState;
-
-    @FindBy(xpath = "//input[@title='Postal Code']")
-    public WebElement postalInput;
+    @FindBy(xpath = " //li[@id='menu-item-1403']/a")
+    public WebElement contactUs;
 
 
 //    public void login() {

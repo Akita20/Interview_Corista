@@ -1,4 +1,4 @@
-package api_Corista.apiTesting;
+package api_QualityTestGroup.apiTesting;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.*;
 
-public class PlayStationMainPage {
+public class QualityTestGroupMainPage {
     //https://gmedia.playstation.com
     @BeforeAll
     public static void init(){
